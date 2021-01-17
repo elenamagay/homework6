@@ -1,0 +1,14 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.search-btn {
+    background-color: rgb(37, 37, 201);
+    color: white;
+}
+.search {
+    background-color: whitesmoke;
+}
