@@ -128,7 +128,7 @@ $(document).ready(function() {
         day5temp.text("Temp: " + tempF(info.list[36].main.temp) + " F");
         day5humid.text("Humidity: " + info.list[36].main.humidity + "%");
                  
-    }
+    };
 
     
     function cityHistoryAdd(c) {
