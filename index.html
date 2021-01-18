@@ -22,18 +22,20 @@
               <div class="col search">
                 <h6>Search for a City:</h6>
                 <form class="form-inline">
-                    <input class="search col" type="search" placeholder="Search" aria-label="Search">
+                    <input class="searchCity col" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn search-btn" type="submit"><i class="fas fa-search-location"></i></button>
                 </form>
-                <div id="history">
-                    City History                    
+                <div id="history">                                       
                 </div>                  
               </div>
 
               <div class="col-8 showResult">
                 <div class="card">
-                    <div class="card-body">
-                        <h4 class="cityName"><span class="currentDate"></span></h4>
+                    <div class="card-body currentCity">
+                        <h4 class="cityName">
+                            <span class="currentDate"></span>
+                            <img id="weatherIcon">
+                        </h4>
                         <div class="temp"></div>
                         <div class="humidity"></div>
                         <div class="wind"></div>
@@ -42,7 +44,7 @@
                 </div>
                 <div>
                     <h5>5-Day Forecast:</h5>
-                    <div class=forecast-container>                        
+                    <div class="forecast-container">                        
                     </div>
                 </div>                
               </div>
