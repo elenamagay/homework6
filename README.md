@@ -4,7 +4,7 @@
 ### In the sixth week assignment the students had a task to to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
 ## The screenshot of the application is presented below.
-![Image of an Application](assets/weatherDashboard.png)
+![Image of an Application](Assets/weatherDashboard.png)
 
 ## **Credits**
 - https://openweathermap.org/api
