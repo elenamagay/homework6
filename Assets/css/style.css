@@ -27,3 +27,13 @@
 .UVIextreme {
     background-color: violet;
 }
+
+.hidden {
+    display: none;
+}
+
+.forcast {
+    background-color: rgb(37, 37, 201);
+    color: white;
+    border: 5px;
+}
