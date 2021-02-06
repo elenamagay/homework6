@@ -38,7 +38,7 @@ $(document).ready(function() {
                 $(".UVindex").text("UV Index: " + UVI.value);
 
                 var UVnumber = parseInt(UVI.value);
-                $(".UVindex").removeClass();
+                // $(".UVindex").removeClass();
 
                 if(UVnumber<=2) {
                     $(".UVindex").addClass("UVIlow")
@@ -165,7 +165,8 @@ $(document).ready(function() {
     }
 
     
-    $(".search-btn").click(function() {        
+    $(".search-btn").click(function(event) {   
+        event.preventDefault();
         citySearch();
     })
 
